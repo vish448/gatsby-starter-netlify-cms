@@ -5,6 +5,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import { StaticImage } from "gatsby-plugin-image"
 
 export const IndexPageTemplate = ({
   image,
@@ -71,7 +72,7 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="content">
-                  <div className="tile">
+                  <div className="title">
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
@@ -130,17 +131,15 @@ const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
-    <Layout>
-      <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
-      />
-    </Layout>
+    
+      <>
+      <div className="h-screen grid justify-items-center items-center">
+
+        <img src="../img/logo.jpg" />
+        <h1>Coming Soon...</h1>
+      </div>
+      </>
+    
   )
 }
 
