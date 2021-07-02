@@ -133,10 +133,17 @@ const IndexPage = ({ data }) => {
   return (
     
       <>
-      <div className="h-screen grid justify-items-center items-center">
-
-        <img src="../img/logo.jpg" />
-        <h1>Coming Soon...</h1>
+      <div className="comingsoonpage" style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column',
+      }}>
+        <img src="../img/logo.jpg" width="375"/>
+        <h1 style={{
+          fontSize: '30px',
+          color:'#115d8f'
+        }}>Coming Soon...</h1>
       </div>
       </>
     
