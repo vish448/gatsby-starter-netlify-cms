@@ -138,12 +138,17 @@ const IndexPage = ({ data }) => {
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
+        padding:'10px'
       }}>
         <img src="../img/logo.jpg" width="375"/>
         <h1 style={{
           fontSize: '30px',
-          color:'#115d8f'
-        }}>Coming Soon...</h1>
+          color:'#115d8f',
+          textAlign:'center'
+        }}>We are building our website<br/> 🚀</h1>
+        <p style={{textAlign:'center'}}>Meanwhile, if you have question please send us an email at <a href="mailto=info@waterwaysinfra.com">info@waterwaysinfra.com</a> or call us at <a href="tel:07940072293">079-4007 2293</a></p>
+        <p style={{textAlign:'center'}}><b>💼 Our Office:</b><br/>1005, Addor Aspire,<br/> Near Jhanavi Hotel, Panjrapole, <br/>Ahmedabad, Gujarat, 380015 (IN)
+        </p>
       </div>
       </>
     
