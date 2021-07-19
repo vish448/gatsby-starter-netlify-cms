@@ -2,7 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import './all.sass'
+//import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
@@ -47,6 +47,9 @@ const TemplateWrapper = ({ children }) => {
           property="og:image"
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
+        <script src={withPrefix('../js/jquery.min.js')} type="text/javascript" /> 
+        <script src={withPrefix('../js/theme-vendors.min.js')} type="text/javascript" />
+        <script src={withPrefix('../js/main.js')} type="text/javascript" />
       </Helmet>
       <Navbar />
       <div>{children}</div>

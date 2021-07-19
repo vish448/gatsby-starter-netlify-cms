@@ -1,113 +1,52 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import logo from '../img/logo.svg'
-import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
-
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Kaldi"
-            style={{ width: '14em', height: '10em' }}
-          />
-        </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
-            <div style={{ maxWidth: '100vw' }} className="columns">
-              <div className="column is-4">
-                <section className="menu">
-                  <ul className="menu-list">
-                    <li>
-                      <Link to="/" className="navbar-item">
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/about">
-                        About
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/products">
-                        Products
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
-                      </Link>
-                    </li>
-                    <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Latest Stories
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="vimeo" href="https://vimeo.com">
-                  <img
-                    src={vimeo}
-                    alt="Vimeo"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-              </div>
+      <>
+      <footer className="footer-dark bg-slate-blue">
+            <div className="footer-top padding-seven-tb lg-padding-eight-tb sm-padding-50px-tb">
+                <div className="container">
+                    <div className="row justify-content-center">
+                        
+                        <div className="col-12 col-lg-3 col-sm-6 order-5 order-lg-0 text-md-center text-lg-left last-paragraph-no-margin">
+                            <a href="index.html" className="footer-logo margin-25px-bottom margin-5px-top d-inline-block"><img src="../img/wwlogo.png" data-at2x="../img/wwlogo.png" alt="" width="300" height="200" style={{height: "200px !important;"}} /></a>
+                            
+                            <p>&copy; Copyright 2021 <a href="index.html" className="text-decoration-line-bottom text-white">Waterwaysinfra</a></p>
+                        </div>
+                       
+                        
+                        <div className="col-12 col-lg offset-xl-1 col-md-3 col-sm-4 order-1 order-lg-0 md-margin-40px-bottom xs-margin-25px-bottom">
+                            <span className="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Company</span>
+                            <ul>
+                                <li><a href="about-us.html">About Waterwaysinfra</a></li>
+                                <li><a href="our-services.html">Our services</a></li>
+                                <li><a href="contact-us-classic.html">Contact us</a></li>
+                                <li><a href="about-me.html">About me</a></li>
+                            </ul>
+                        </div>
+                       
+                        
+                        
+                        <div className="col-12 col-lg col-md-3 col-sm-6 order-4 order-lg-0 xs-margin-25px-bottom">
+                            <span className="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Services</span>
+                            <ul>
+                                <li><a href="#">Water Suppy Network</a></li>
+                                <li><a href="#">Sewage Netwrok</a></li>
+                                <li><a href="#">Strom Water Network</a></li>
+                                <li><a href="#">Canal Network and irrigation</a></li>
+																<li><a href="#">PMC</a></li>
+																<li><a href="#">MEP</a></li>
+                            </ul>
+                        </div>
+                                               
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </footer>
+        </footer>
+        <a className="scroll-top-arrow" href="javascript:void(0);"><i className="feather icon-feather-arrow-up"></i></a>
+        </>
     )
   }
 }
