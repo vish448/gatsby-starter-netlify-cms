@@ -47,7 +47,7 @@ const AboutPage = ({ data }) => {
                     </div>
                 </div>
             </div>
-            <video loop="" autoplay="" controls="" muted className="html-video" poster="../img/about-us.jpg">
+            <video muted className="html-video" poster="../img/about-us.jpg">
                 <source type="video/mp4" src="video/video.mp4" />
                 <source type="video/webm" src="video/video.webm" />
             </video>

@@ -86,7 +86,7 @@ const Navbar = class extends React.Component {
                                     <a href="about" className="nav-link">About Us</a>
                                 </li>
 																<li className="nav-item dropdown simple-dropdown">
-																		<a href="#" className="nav-link">Services</a>
+																		<a href="our-services" className="nav-link">Services</a>
 																		<i className="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
 																		<ul className="dropdown-menu" role="menu">
 																				<li className="dropdown"><a href="#">Water Supply Network</a></li>
