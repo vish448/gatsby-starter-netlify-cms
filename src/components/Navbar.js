@@ -64,8 +64,8 @@ const Navbar = class extends React.Component {
             <nav className="navbar navbar-expand-lg top-space navbar-light bg-white header-light fixed-top navbar-boxed header-reverse-scroll">
                 <div className="container-fluid nav-header-container">
                     <div className="col-6 col-lg-2 mr-auto pl-lg-0">
-                        <a className="navbar-brand" href="index.html">
-														<img src="../img/logowwi.png" data-at2x="../img/logowwi.png" className="mobile-logo"alt="" />
+                        <a className="navbar-brand" href="/">
+														<img src="../img/logowwi.png" data-at2x="../img/logowwi.png" className="mobile-logo" alt="" />
 														<img src="../img/logowwi.png" data-at2x="../img/logowwi.png" className="alt-logo" alt="" />
 														<img src="../img/logowwi.png" data-at2x="../img/logowwi.png" className="default-logo" alt="" />
                         </a>
@@ -87,21 +87,12 @@ const Navbar = class extends React.Component {
                                 </li>
 																<li className="nav-item dropdown simple-dropdown">
 																		<a href="our-services" className="nav-link">Services</a>
-																		<i className="fa fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
-																		<ul className="dropdown-menu" role="menu">
-																				<li className="dropdown"><a href="#">Water Supply Network</a></li>
-																				<li className="dropdown"><a href="#">Sewage Network</a></li>
-																				<li className="dropdown"><a href="#">Storm Water Network</a></li>
-																				<li className="dropdown"><a href="#">Canal Network & Irrigation </a></li>
-																				<li className="dropdown"><a href="#">PMC</a></li>
-																				<li className="dropdown"><a href="#">MEP</a></li>
-																		</ul>
 																</li>
 																<li className="nav-item dropdown simple-dropdown">
-																	<a href="#" className="nav-link">Projects</a>
+																	<a href="our-projects" className="nav-link">Projects</a>
 															</li>
                                 <li className="nav-item dropdown simple-dropdown">
-                                    <a href="#" className="nav-link">Contact Us</a>
+                                    <a href="contact-us" className="nav-link">Contact Us</a>
                                 </li>
                             </ul>
                         </div>

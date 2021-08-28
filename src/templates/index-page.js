@@ -290,7 +290,7 @@ const IndexPage = ({ data }) => {
 																					Urban Water supply<br/>
 																					Rural Water supply<br/>
 																					Hydraulic modelling and analysis.</p>
-                                        <a href="index.html" className="btn btn-fancy btn-medium btn-dark-gray margin-20px-top">About WSN</a>
+                                        <a href="/water-supply" className="btn btn-fancy btn-medium btn-dark-gray margin-20px-top">About WSN</a>
                                     </div>
                                 </div>
                             </div>

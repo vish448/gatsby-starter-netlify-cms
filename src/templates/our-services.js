@@ -83,10 +83,10 @@ const OurServicesPage = ({ data }) => {
                         <div className="feature-box text-left box-shadow-large box-shadow-double-large-hover bg-white padding-4-rem-all lg-padding-3-rem-all md-padding-4-half-rem-all">
                             <div className="feature-box-content">
                                 <span className="margin-15px-bottom d-block text-extra-medium">01</span>
-                                <h6 className="alt-font font-weight-600 d-block text-extra-dark-gray">Water Suppy</h6>
+                                <h6 className="alt-font font-weight-600 d-block text-extra-dark-gray">Water Supply</h6>
                                 <p>The availability of dependable and affordable water is a non-negotiable condition for any infrastructure development.</p>
                                 <div className="h-1px bg-medium-gray margin-25px-bottom w-100"></div>
-                                <a className="text-small font-weight-500 text-uppercase alt-font d-block text-extra-dark-gray" href="about-me.html">More info<i className="feather icon-feather-arrow-right icon-extra-small float-right"></i></a>
+                                <a className="text-small font-weight-500 text-uppercase alt-font d-block text-extra-dark-gray" href="/water-supply">More info<i className="feather icon-feather-arrow-right icon-extra-small float-right"></i></a>
                             </div>
                             <div className="feature-box-overlay bg-white"></div>
                         </div>
@@ -135,7 +135,7 @@ const OurServicesPage = ({ data }) => {
                             <div className="feature-box-content">
                                 <span className="margin-15px-bottom d-block text-extra-medium">05</span>
                                 <h6 className="alt-font font-weight-600 d-block text-extra-dark-gray">Project Management Consultancy</h6>
-                                <p>A project management consultant plays the role of a planner and advisor and a project management.</p>
+                                <p>A PM consultant plays the role of a planner and advisor of a project management.</p>
                                 <div className="h-1px bg-medium-gray margin-25px-bottom w-100"></div>
                                 <a className="text-small font-weight-500 text-uppercase alt-font d-block text-extra-dark-gray" href="about-me.html">More info<i className="feather icon-feather-arrow-right icon-extra-small float-right"></i></a>
                             </div>
