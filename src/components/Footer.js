@@ -20,10 +20,10 @@ const Footer = class extends React.Component {
                         <div className="col-12 col-lg offset-xl-1 col-md-3 col-sm-4 order-1 order-lg-0 md-margin-40px-bottom xs-margin-25px-bottom">
                             <span className="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Company</span>
                             <ul>
-                                <li><a href="about-us.html">About Waterwaysinfra</a></li>
-                                <li><a href="our-services.html">Our services</a></li>
-                                <li><a href="contact-us-classic.html">Contact us</a></li>
-                                <li><a href="about-me.html">About me</a></li>
+                                <li><a href="about">About Waterwaysinfra</a></li>
+                                <li><a href="our-services">Our services</a></li>
+                                <li><a href="our-projects">Our Projects</a></li>
+                                <li><a href="contact-us">Contact us</a></li>
                             </ul>
                         </div>
                        

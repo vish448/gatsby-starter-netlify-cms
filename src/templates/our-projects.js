@@ -99,6 +99,10 @@ const OurProjectsPage = ({ data }) => {
                       <li>Consultancy work for Faniya Connectivity of Vanakbori Regional water supply Network.</li>
                       <li>Preparation of DPR including survey, investigation of soil, technical design of each component, Hydrological design of pipe line network under water supply scheme for Moradabad UP work.</li>
                   </ul>
+                  <div>
+                    <img className="border-radius-6px margin-20px-bottom" src="../img/cni.jpg" alt=""/>
+                    <img className="border-radius-6px margin-20px-bottom" src="../img/pmc.jpg" alt=""/>
+                  </div>
                 </div>
             </div>
         </div>

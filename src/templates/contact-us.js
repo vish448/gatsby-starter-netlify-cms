@@ -36,15 +36,12 @@ const ContactUsPage = ({ data }) => {
 
   return (
     <Layout>
-
-    
     <section className="no-padding extra-small-screen position-relative">
         <div className="opacity-full bg-gradient-fast-blue-purple z-index-0"></div>
         <div className="container h-100">
             <div className="row align-items-end justify-content-center h-100">
                 <div className="col-12 col-xl-6 col-lg-7 col-md-10 page-title-large text-center">
-                    
-                    <h1 className="text-white alt-font font-weight-500 letter-spacing-minus-1 margin-5-rem-bottom sm-margin-3-rem-bottom">Get in touch with us</h1>
+                    <h1 className="text-white alt-font font-weight-500 letter-spacing-minus-1 margin-5-rem-bottom sm-margin-3-rem-bottom">Contact Us</h1>
                 </div>
             </div>
         </div>
@@ -81,7 +78,7 @@ const ContactUsPage = ({ data }) => {
                     </div>
                     <div className="feature-box-content last-paragraph-no-margin">
                         <span className="alt-font font-weight-500 margin-10px-bottom d-block text-extra-dark-gray text-small text-uppercase">Let's Talk</span>
-                        <p>Phone: 079 4007 2293</p>
+                        <p>Phone: <a href="tel:07940072293">079 4007 2293</a></p>
                     </div>
                 </div>
             </div>

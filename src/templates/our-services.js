@@ -60,11 +60,9 @@ const OurServicesPage = ({ data }) => {
                     <h4 className="alt-font font-weight-600 text-extra-dark-gray w-95">We help our clients build systemetic solutions</h4>
                     <a href="#services" className="btn btn-medium btn-dark-gray margin-15px-top btn-round-edge section-link">Our services<i className="feather icon-feather-arrow-right icon-very-small right-icon"></i></a>
                 </div>
+                
                 <div className="col-12 col-lg-7 col-md-9 padding-55px-lr md-padding-5px-left sm-padding-50px-right">
-                    <figure className="image-back-offset-shadow position-right w-100">
-                        <img className="border-radius-6px" src="https://placehold.it/800x610" alt=""/>
-                        <span className="bg-gradient-light-purple-light-orange border-radius-6px overlay"></span>
-                    </figure>
+                    <img className="border-radius-6px" src="../img/wsn.jpg" alt=""/>
                 </div>
             </div>
         </div>

@@ -63,10 +63,7 @@ const WaterSupplyPage = ({ data }) => {
                     </ul>
                 </div>
                 <div className="col-12 col-lg-5 col-md-9 padding-55px-lr md-padding-5px-left sm-padding-50px-right">
-                <figure className="image-back-offset-shadow position-right w-100">
-                    <img className="border-radius-6px" src="https://placehold.it/800x610" alt=""/>
-                    <span className="bg-gradient-light-purple-light-orange border-radius-6px overlay"></span>
-                </figure>
+                    <img className="border-radius-6px" src="../img/wsn.jpg" alt=""/>
             </div>
             </div>
         </div>

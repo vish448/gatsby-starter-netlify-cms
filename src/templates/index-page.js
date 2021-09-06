@@ -191,7 +191,7 @@ const IndexPage = ({ data }) => {
                       </div>
                       <h5 className="alt-font text-extra-dark-gray font-weight-600 margin-20px-bottom md-margin-30px-bottom xs-w-90 mx-auto mx-sm-0">We combine planning, design and thinking with right use of technology</h5>
                       <div className="mt-auto mx-auto mx-lg-0">
-                          <a href="index.html" className="btn btn-fancy btn-small btn-transparent-light-gray">About Us</a>
+                          <a href="about" className="btn btn-fancy btn-small btn-transparent-light-gray">About Us</a>
                       </div>
                   </div>
                   <div className="col-12 col-xl-7 offset-xl-2 col-lg-8 last-paragraph-no-margin wow animate__fadeIn" data-wow-duration="0.3">
@@ -204,7 +204,7 @@ const IndexPage = ({ data }) => {
                                   </div>
                                   <div className="feature-box-content last-paragraph-no-margin">
                                       <span className="alt-font font-weight-500 margin-10px-bottom d-block text-extra-dark-gray">Effective strategy</span>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor.</p>
+                                      <p>Our strategies helps our clients to acheive the best results as per the project scope.</p>
                                   </div>
                               </div>
                           </div>
@@ -217,7 +217,7 @@ const IndexPage = ({ data }) => {
                                   </div>
                                   <div className="feature-box-content last-paragraph-no-margin">
                                       <span className="alt-font font-weight-500 margin-10px-bottom d-block text-extra-dark-gray">Unique approach</span>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor.</p>
+                                      <p>Our unique approach gives our clients confidence in us to get the best results.</p>
                                   </div>
                               </div>
                           </div>
@@ -231,7 +231,7 @@ const IndexPage = ({ data }) => {
                                   <div className="feature-box-content last-paragraph-no-margin">
                                       <span className="alt-font font-weight-500 margin-10px-bottom d-block text-extra-dark-gray">Infrastructure
                                         development</span>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor.</p>
+                                      <p>Along with consultancy with also provide insfrastructure development services. </p>
                                   </div>
                               </div>
                           </div>
@@ -244,7 +244,7 @@ const IndexPage = ({ data }) => {
                                   </div>
                                   <div className="feature-box-content last-paragraph-no-margin">
                                       <span className="alt-font font-weight-500 margin-10px-bottom d-block text-extra-dark-gray">Technology</span>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit do eiusmod tempor.</p>
+                                      <p>With right user of technology and management we provide best solutions to our clients.</p>
                                   </div>
                               </div>
                           </div>
@@ -392,23 +392,23 @@ const IndexPage = ({ data }) => {
         </section>
 
         <section className="padding-100px-tb lg-padding-90px-tb md-padding-75px-tb wow animate__fadeIn">
-        <div className="container">
-            <div className="row row-cols-1 row-cols-md-4 row-cols-sm-2 align-items-center justify-content-center">
-                
-                <div className="col text-center sm-margin-40px-bottom">
-                    <h4 className="vertical-counter d-inline-flex text-extra-dark-gray alt-font appear font-weight-600 letter-spacing-minus-2px md-letter-spacing-normal mb-0" data-to="21"></h4>
-                    <span className="alt-font text-uppercase text-small d-block margin-5px-top">completed Projects</span>
-                </div>
-                
-                
-                <div className="col text-center sm-margin-40px-bottom">
-                    <h4 className="vertical-counter d-inline-flex text-extra-dark-gray alt-font appear font-weight-600 letter-spacing-minus-2px md-letter-spacing-normal mb-0" data-to="4"></h4>
-                    <span className="alt-font text-uppercase text-small d-block margin-5px-top">Ongoing Projects</span>
-                </div>
-                
-            </div>
-        </div>
-    </section>
+          <div className="container">
+              <div className="row row-cols-1 row-cols-md-4 row-cols-sm-2 align-items-center justify-content-center">
+                  
+                  <div className="col text-center sm-margin-40px-bottom">
+                      <h4 className="vertical-counter d-inline-flex text-extra-dark-gray alt-font appear font-weight-600 letter-spacing-minus-2px md-letter-spacing-normal mb-0" data-to="21">21</h4>
+                      <span className="alt-font text-uppercase text-small d-block margin-5px-top">Completed Projects</span>
+                  </div>
+
+                  
+                  <div className="col text-center sm-margin-40px-bottom">
+                      <h4 className="vertical-counter d-inline-flex text-extra-dark-gray alt-font appear font-weight-600 letter-spacing-minus-2px md-letter-spacing-normal mb-0" data-to="4">4</h4>
+                      <span className="alt-font text-uppercase text-small d-block margin-5px-top">Ongoing Projects</span>
+                  </div>
+                  
+              </div>
+          </div>
+        </section>
 
     <section className="padding-100px-tb bg-light-blue border-top border-color-medium-gray lg-padding-90px-tb md-padding-75px-tb sm-padding-50px-tb wow animate__fadeIn">
             <div className="container">
