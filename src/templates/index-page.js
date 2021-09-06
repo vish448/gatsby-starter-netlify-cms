@@ -311,7 +311,7 @@ const IndexPage = ({ data }) => {
 																					Industrial and Integrated Infrastructure<br/>
 																					Recycle network system<br/>
 																					Hydraulic modelling and analysis.</p>
-                                        <a href="index.html" className="btn btn-fancy btn-medium btn-dark-gray margin-20px-top">About Sewage Network</a>
+                                        <a href="/sewage-network" className="btn btn-fancy btn-medium btn-dark-gray margin-20px-top">About Sewage Network</a>
                                     </div>
                                 </div>
                             </div>
@@ -327,7 +327,7 @@ const IndexPage = ({ data }) => {
                                         <h5 className="alt-font font-weight-600 text-extra-dark-gray margin-35px-bottom md-margin-30px-bottom">Storm Water Networt</h5>
                                         <p className="w-85 lg-w-100">Storm water Management<br/>
 																					Rain water harvesting</p>
-                                        <a href="index.html" className="btn btn-fancy btn-medium btn-dark-gray margin-20px-top">About SVN</a>
+                                        <a href="/swn" className="btn btn-fancy btn-medium btn-dark-gray margin-20px-top">About SWN</a>
                                     </div>
                                 </div>
                             </div>
@@ -347,7 +347,7 @@ const IndexPage = ({ data }) => {
 																					Crop capacity for water absorption<br/>
 																					Water available in the soil<br/>
 																					“Allowable” water de cit for issues such as crop resistance.</p>
-                                        <a href="index.html" className="btn btn-fancy btn-medium btn-dark-gray margin-20px-top">About Canal Network</a>
+                                        <a href="/canal-network" className="btn btn-fancy btn-medium btn-dark-gray margin-20px-top">About Canal Network</a>
                                     </div>
                                 </div>
                             </div>
@@ -363,7 +363,7 @@ const IndexPage = ({ data }) => {
 																			<h5 className="alt-font font-weight-600 text-extra-dark-gray margin-35px-bottom md-margin-30px-bottom">Project Management Consultancy</h5>
 																			<p className="w-85 lg-w-100">A project management consultant plays the role of a planner, advisor and a project management team leader to
 																				conceptualize and implement solutions that relate to quality or process improvements.</p>
-																			<a href="index.html" className="btn btn-fancy btn-medium btn-dark-gray margin-20px-top">About PMC</a>
+																			<a href="/pmc" className="btn btn-fancy btn-medium btn-dark-gray margin-20px-top">About PMC</a>
 																	</div>
 															</div>
 													</div>
@@ -380,7 +380,7 @@ const IndexPage = ({ data }) => {
 																		<p className="w-85 lg-w-100">Mechanical engineering<br/>
 																			Electrical engineering<br/>
 																			Plumbing engineering</p>
-																		<a href="index.html" className="btn btn-fancy btn-medium btn-dark-gray margin-20px-top">About MEP</a>
+																		<a href="mep" className="btn btn-fancy btn-medium btn-dark-gray margin-20px-top">About MEP</a>
 																</div>
 														</div>
 												</div>
@@ -396,13 +396,13 @@ const IndexPage = ({ data }) => {
               <div className="row row-cols-1 row-cols-md-4 row-cols-sm-2 align-items-center justify-content-center">
                   
                   <div className="col text-center sm-margin-40px-bottom">
-                      <h4 className="vertical-counter d-inline-flex text-extra-dark-gray alt-font appear font-weight-600 letter-spacing-minus-2px md-letter-spacing-normal mb-0" data-to="21">21</h4>
+                      <h4 className="vertical-counter d-inline-flex text-extra-dark-gray alt-font appear font-weight-600 letter-spacing-minus-2px md-letter-spacing-normal mb-0">21</h4>
                       <span className="alt-font text-uppercase text-small d-block margin-5px-top">Completed Projects</span>
                   </div>
 
                   
                   <div className="col text-center sm-margin-40px-bottom">
-                      <h4 className="vertical-counter d-inline-flex text-extra-dark-gray alt-font appear font-weight-600 letter-spacing-minus-2px md-letter-spacing-normal mb-0" data-to="4">4</h4>
+                      <h4 className="vertical-counter d-inline-flex text-extra-dark-gray alt-font appear font-weight-600 letter-spacing-minus-2px md-letter-spacing-normal mb-0">4</h4>
                       <span className="alt-font text-uppercase text-small d-block margin-5px-top">Ongoing Projects</span>
                   </div>
                   

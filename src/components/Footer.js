@@ -33,11 +33,11 @@ const Footer = class extends React.Component {
                             <span className="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Services</span>
                             <ul>
                                 <li><a href="/water-supply">Water Suppy Network</a></li>
-                                <li><a href="#">Sewage Netwrok</a></li>
-                                <li><a href="#">Strom Water Network</a></li>
-                                <li><a href="#">Canal Network and irrigation</a></li>
-								<li><a href="#">PMC</a></li>
-								<li><a href="#">MEP</a></li>
+                                <li><a href="/sewage-network">Sewage Netwrok</a></li>
+                                <li><a href="/swn">Strom Water Network</a></li>
+                                <li><a href="/canal-network">Canal Network and irrigation</a></li>
+								<li><a href="/pmc">PMC</a></li>
+								<li><a href="/mep">MEP</a></li>
                             </ul>
                         </div>
                                                

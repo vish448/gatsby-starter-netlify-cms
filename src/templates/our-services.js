@@ -96,7 +96,7 @@ const OurServicesPage = ({ data }) => {
                                 <h6 className="alt-font font-weight-600 d-block text-extra-dark-gray">Sewage and Sanitation</h6>
                                 <p>Appropriate management of sewage and sanitation is critical for a quality of life and environmental health.</p>
                                 <div className="h-1px bg-medium-gray margin-25px-bottom w-100"></div>
-                                <a className="text-small font-weight-500 text-uppercase alt-font d-block text-extra-dark-gray" href="about-me.html">More info<i className="feather icon-feather-arrow-right icon-extra-small float-right"></i></a>
+                                <a className="text-small font-weight-500 text-uppercase alt-font d-block text-extra-dark-gray" href="/sewage-network">More info<i className="feather icon-feather-arrow-right icon-extra-small float-right"></i></a>
                             </div>
                             <div className="feature-box-overlay bg-white"></div>
                         </div>
@@ -109,7 +109,7 @@ const OurServicesPage = ({ data }) => {
                                 <h6 className="alt-font font-weight-600 d-block text-extra-dark-gray">Storm water Management</h6>
                                 <p>Efficient stormwater management is vital for ensuring proper functioning and life of roads and infrastructure.</p>
                                 <div className="h-1px bg-medium-gray margin-25px-bottom w-100"></div>
-                                <a className="text-small font-weight-500 text-uppercase alt-font d-block text-extra-dark-gray" href="about-me.html">More info<i className="feather icon-feather-arrow-right icon-extra-small float-right"></i></a>
+                                <a className="text-small font-weight-500 text-uppercase alt-font d-block text-extra-dark-gray" href="/swn">More info<i className="feather icon-feather-arrow-right icon-extra-small float-right"></i></a>
                             </div>
                             <div className="feature-box-overlay bg-white"></div>
                         </div>
@@ -122,7 +122,7 @@ const OurServicesPage = ({ data }) => {
                                 <h6 className="alt-font font-weight-600 d-block text-extra-dark-gray">Canal Network and Irrigation</h6>
                                 <p>The purpose of irrigation: to supply an adequate amount of water when rainfall is not sufficient.</p>
                                 <div className="h-1px bg-medium-gray margin-25px-bottom w-100"></div>
-                                <a className="text-small font-weight-500 text-uppercase alt-font d-block text-extra-dark-gray" href="about-me.html">More info<i className="feather icon-feather-arrow-right icon-extra-small float-right"></i></a>
+                                <a className="text-small font-weight-500 text-uppercase alt-font d-block text-extra-dark-gray" href="/canal-network">More info<i className="feather icon-feather-arrow-right icon-extra-small float-right"></i></a>
                             </div>
                             <div className="feature-box-overlay bg-white"></div>
                         </div>
@@ -135,7 +135,7 @@ const OurServicesPage = ({ data }) => {
                                 <h6 className="alt-font font-weight-600 d-block text-extra-dark-gray">Project Management Consultancy</h6>
                                 <p>A PM consultant plays the role of a planner and advisor of a project management.</p>
                                 <div className="h-1px bg-medium-gray margin-25px-bottom w-100"></div>
-                                <a className="text-small font-weight-500 text-uppercase alt-font d-block text-extra-dark-gray" href="about-me.html">More info<i className="feather icon-feather-arrow-right icon-extra-small float-right"></i></a>
+                                <a className="text-small font-weight-500 text-uppercase alt-font d-block text-extra-dark-gray" href="/pmc">More info<i className="feather icon-feather-arrow-right icon-extra-small float-right"></i></a>
                             </div>
                             <div className="feature-box-overlay bg-white"></div>
                         </div>
@@ -148,7 +148,7 @@ const OurServicesPage = ({ data }) => {
                                 <h6 className="alt-font font-weight-600 d-block text-extra-dark-gray">Mechanical Electrical And Plumbing</h6>
                                 <p>Mechanical engineering, Electrical engineering, Plumbing engineering</p>
                                 <div className="h-1px bg-medium-gray margin-25px-bottom w-100"></div>
-                                <a className="text-small font-weight-500 text-uppercase alt-font d-block text-extra-dark-gray" href="about-me.html">More info<i className="feather icon-feather-arrow-right icon-extra-small float-right"></i></a>
+                                <a className="text-small font-weight-500 text-uppercase alt-font d-block text-extra-dark-gray" href="/mep">More info<i className="feather icon-feather-arrow-right icon-extra-small float-right"></i></a>
                             </div>
                             <div className="feature-box-overlay bg-white"></div>
                         </div>
