@@ -41,9 +41,7 @@ const Navbar = class extends React.Component {
                 <div className="container-fluid nav-header-container">
                     <div className="d-flex flex-wrap align-items-center">
                         <div className="col-12 text-center text-sm-left col-sm-auto mr-auto pl-lg-0">
-                            <ul className="social-icon padding-5px-tb">
-                                <li><a className="text-neon-blue-hover" href="http://www.facebook.com" target="_blank"><i className="fab fa-facebook-f"></i></a></li>
-                            </ul>
+                          
                         </div>
                         <div className="col-auto d-none d-sm-block text-right px-lg-0 font-size-0">
                             <div className="top-bar-contact">

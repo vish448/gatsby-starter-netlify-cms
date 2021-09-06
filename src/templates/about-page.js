@@ -71,66 +71,7 @@ const AboutPage = ({ data }) => {
            
         </div>
     </section>
-
-    <section className="wow pb-0">
-      <div className="container">
-            <div className="row align-items-center">
-                <div className="col-12 col-xl-5 col-lg-6 padding-3-rem-bottom lg-padding-7-rem-bottom sm-padding-50px-bottom">
-                    
-                    <h5 className="alt-font text-extra-dark-gray font-weight-500 margin-5-half-rem-bottom">Kinal Soni</h5>
-                    <div className="row">
-                        
-                        <div className="col-12">
-                            <div className="feature-box feature-box-left-icon">
-                                
-                                <div className="feature-box-content last-paragraph-no-margin">
-                                
-                                    <p className="w-95">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div className="col-12"><div className="h-1px bg-medium-light-gray margin-40px-tb w-100 xs-margin-30px-tb"></div></div>
-                        
-                        
-                        
-                    </div>
-                </div>
-                <div className="col-12 col-lg-6 offset-xl-1 align-self-end text-center text-xl-left">
-                    <img src="https://placehold.it/504x666" alt="" />
-                </div>
-            </div>
-        </div>
-    </section>
-    <section className="wow pb-0">
-      <div className="container">
-            <div className="row align-items-center">
-            <div className="col-12 col-lg-6 align-self-end text-center text-xl-left">
-                    <img src="https://placehold.it/504x666" alt="" />
-                </div>
-            <div className="col-12 col-xl-5 col-lg-6 padding-3-rem-bottom lg-padding-7-rem-bottom sm-padding-50px-bottom">
-                    
-                    <h5 className="alt-font text-extra-dark-gray font-weight-500 margin-5-half-rem-bottom">Ujjaval Soni</h5>
-                    <div className="row">
-                        
-                        <div className="col-12">
-                            <div className="feature-box feature-box-left-icon">
-                                
-                                <div className="feature-box-content last-paragraph-no-margin">
-                                
-                                    <p className="w-95">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div className="col-12"><div className="h-1px bg-medium-light-gray margin-40px-tb w-100 xs-margin-30px-tb"></div></div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-    </Layout>
+</Layout>
   )
 }
 
