@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -41,7 +39,7 @@ const Navbar = class extends React.Component {
                 <div className="container-fluid nav-header-container">
                     <div className="d-flex flex-wrap align-items-center">
                         <div className="col-12 text-center text-sm-left col-sm-auto mr-auto pl-lg-0">
-                          
+
                         </div>
                         <div className="col-auto d-none d-sm-block text-right px-lg-0 font-size-0">
                             <div className="top-bar-contact">

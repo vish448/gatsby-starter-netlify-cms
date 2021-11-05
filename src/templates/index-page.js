@@ -129,7 +129,6 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
-  console.log(data)
   return (
      
       <Layout>
@@ -280,7 +279,7 @@ const IndexPage = ({ data }) => {
                             <div id="planning-tab" className="tab-pane fade in active show">
                                 <div className="row align-items-center">
                                     <div className="col-12 col-md-6 text-right sm-margin-40px-bottom">
-                                        <img src="../img/wsn.jpg" alt="" />
+                                        <img src="../img/slider3.jpg" alt="" />
                                     </div>
                                     <div className="col-12 col-lg-5 offset-lg-1 col-md-6 text-center text-sm-left">
                                         
@@ -299,7 +298,7 @@ const IndexPage = ({ data }) => {
                             <div id="research-tab" className="tab-pane fade">
                                 <div className="row align-items-center">
                                     <div className="col-12 col-md-6 text-right sm-margin-40px-bottom">
-                                        <img src="../img/sewagenetwork.png" alt="" />
+                                        <img src="../img/svn.jpg" alt="" />
                                     </div>
                                     <div className="col-12 col-lg-5 offset-lg-1 col-md-6">
                                         
@@ -320,7 +319,7 @@ const IndexPage = ({ data }) => {
                             <div id="target-tab" className="tab-pane fade">
                                 <div className="row align-items-center">
                                     <div className="col-12 col-md-6 text-right sm-margin-40px-bottom">
-                                        <img src="../img/svn.jpg" alt="" />
+                                        <img src="../img/sewagenetwork.png" alt="" />
                                     </div>
                                     <div className="col-12 col-lg-5 offset-lg-1 col-md-6">
                                         
@@ -356,7 +355,7 @@ const IndexPage = ({ data }) => {
                             <div id="pmc-tab" className="tab-pane fade">
 															<div className="row align-items-center">
 																	<div className="col-12 col-md-6 text-right sm-margin-40px-bottom">
-																			<img src="../img/pmc.jpg" alt="" />
+																			<img src="../img/pmc-1.jpg" alt="" />
 																	</div>
 																	<div className="col-12 col-lg-5 offset-lg-1 col-md-6">
 																			
@@ -372,7 +371,7 @@ const IndexPage = ({ data }) => {
 													<div id="mep-tab" className="tab-pane fade">
 														<div className="row align-items-center">
 																<div className="col-12 col-md-6 text-right sm-margin-40px-bottom">
-																		<img src="../img/mep.jpg" alt="" />
+																		<img src="../img/pmc.jpg" alt="" />
 																</div>
 																<div className="col-12 col-lg-5 offset-lg-1 col-md-6">
 																		

@@ -41,7 +41,6 @@ const OurProjectsPage = ({ data }) => {
         <div className="container h-100">
             <div className="row align-items-end justify-content-center h-100">
                 <div className="col-12 col-xl-6 col-lg-7 col-md-10 page-title-large text-center">
-                    
                     <h1 className="text-white alt-font font-weight-500 letter-spacing-minus-1 margin-5-rem-bottom sm-margin-3-rem-bottom">Our Projects</h1>
                 </div>
             </div>

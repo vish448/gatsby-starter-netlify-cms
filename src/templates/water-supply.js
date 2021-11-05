@@ -63,7 +63,7 @@ const WaterSupplyPage = ({ data }) => {
                     </ul>
                 </div>
                 <div className="col-12 col-lg-5 col-md-9 padding-55px-lr md-padding-5px-left sm-padding-50px-right">
-                    <img className="border-radius-6px" src="../img/wsn.jpg" alt=""/>
+                    <img className="border-radius-6px" src="../img/slider3.jpg" alt=""/>
             </div>
             </div>
         </div>
