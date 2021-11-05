@@ -79,16 +79,16 @@ const Navbar = class extends React.Component {
                                     <a href="/" className="nav-link">Home</a>
                                 </li>
                                 <li className="nav-item dropdown simple-dropdown">
-                                    <a href="about" className="nav-link">About Us</a>
+                                    <a href="/about" className="nav-link">About Us</a>
                                 </li>
 																<li className="nav-item dropdown simple-dropdown">
-																		<a href="our-services" className="nav-link">Services</a>
+																		<a href="/our-services" className="nav-link">Services</a>
 																</li>
 																<li className="nav-item dropdown simple-dropdown">
-																	<a href="our-projects" className="nav-link">Projects</a>
+																	<a href="/our-projects" className="nav-link">Projects</a>
 															</li>
                                 <li className="nav-item dropdown simple-dropdown">
-                                    <a href="contact-us" className="nav-link">Contact Us</a>
+                                    <a href="/contact-us" className="nav-link">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
